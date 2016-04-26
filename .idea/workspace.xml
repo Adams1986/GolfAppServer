@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbc4302a-1c24-407b-8972-a5c8f3aae52e" name="Default" comment="" />
+    <list default="true" id="dbc4302a-1c24-407b-8972-a5c8f3aae52e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Club.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Course.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/GetCourseList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/GetMembers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Hole.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Authentication.php" afterPath="$PROJECT_DIR$/Model/Authentication.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Member.php" afterPath="$PROJECT_DIR$/Model/Member.php" />
+    </list>
     <ignored path="GolfAppServer.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,12 +32,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Member.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/Member.php">
+      <file leaf-file-name="GetCourseList.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Model/GetCourseList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.384615">
-              <caret line="151" column="42" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
+            <state vertical-scroll-proportion="-0.018274112">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <marker date="1461689064517" expanded="true" signature="517:559" placeholder="SELECT * FRO... clubs" />
+                <marker date="1461689064517" expanded="true" signature="908:947" placeholder="SELECT * FRO... courses" />
+                <marker date="1461689064517" expanded="true" signature="1597:1636" placeholder="SELECT * FRO... holes" />
+                <marker date="1461689064517" expanded="true" signature="2302:2368" placeholder="SELECT cours... clubs" />
+                <marker date="1461689064517" expanded="true" signature="2302:2578" placeholder="SELECT cours... clubs" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hole.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/Hole.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-58.846153">
+              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Club.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/Club.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-51.653847">
+              <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="80" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetMembers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/GetMembers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-33.96154">
+              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+              <folding>
+                <marker date="1460305561340" expanded="true" signature="447:687" placeholder="SELECT id, f... members" />
+                <marker date="1460305561340" expanded="true" signature="1374:1610" placeholder="SELECT club_... clubs" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,20 +84,20 @@
       <file leaf-file-name="Authentication.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/Authentication.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.692307">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding>
-                <marker date="1460047060795" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
+                <marker date="1460141143357" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberInformation.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MemberInformation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/MemberInformation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3756906">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
               <folding>
                 <marker date="1460058635496" expanded="true" signature="560:594" placeholder="SELECT * FRO... members" />
                 <marker date="1460058635496" expanded="true" signature="1105:1197" placeholder="SELECT club_... clubs" />
@@ -59,13 +108,21 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Model/Player.php" />
-        <option value="$PROJECT_DIR$/Model/Authentication.php" />
-        <option value="$PROJECT_DIR$/Model/Member.php" />
         <option value="$PROJECT_DIR$/Model/MemberInformation.php" />
+        <option value="$PROJECT_DIR$/Model/Authentication.php" />
+        <option value="$PROJECT_DIR$/Model/Club.php" />
+        <option value="$PROJECT_DIR$/Model/Course.php" />
+        <option value="$PROJECT_DIR$/Model/Member.php" />
+        <option value="$PROJECT_DIR$/Model/GetMembers.php" />
+        <option value="$PROJECT_DIR$/Model/Hole.php" />
+        <option value="$PROJECT_DIR$/Model/GetCourseList.php" />
       </list>
     </option>
   </component>
@@ -79,10 +136,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2396" />
-    <option name="y" value="71" />
-    <option name="width" value="1391" />
-    <option name="height" value="1000" />
+    <option name="x" value="2348" />
+    <option name="y" value="39" />
+    <option name="width" value="1161" />
+    <option name="height" value="1148" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -109,13 +166,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="GolfAppServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GolfAppServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GolfAppServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -134,7 +201,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,11 +215,17 @@
       <recent name="C:\xampp\htdocs\GolfAppServer\Model" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.Authentication.php">
+  <component name="RunManager" selected="PHP Script.GetMembers.php">
     <configuration default="false" name="Member.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Model/Member.php">
       <method />
     </configuration>
     <configuration default="false" name="Authentication.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Model/Authentication.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="GetCourseList.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Model/GetCourseList.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="GetMembers.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Model/GetMembers.php">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -183,14 +256,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.Member.php" />
       <item index="1" class="java.lang.String" itemvalue="PHP Script.Authentication.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.GetCourseList.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.GetMembers.php" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.Authentication.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.Member.php" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.GetMembers.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.GetCourseList.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.Authentication.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.Member.php" />
       </list>
     </recent_temporary>
   </component>
@@ -208,27 +285,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2396" y="71" width="1391" height="1000" extended-state="0" />
-    <editor active="false" />
+    <frame x="2348" y="39" width="1161" height="1148" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3091703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4298541" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -244,11 +321,262 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Model/GetCourseList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <marker date="1461689064517" expanded="true" signature="517:559" placeholder="SELECT * FRO... clubs" />
+            <marker date="1461689064517" expanded="true" signature="908:947" placeholder="SELECT * FRO... courses" />
+            <marker date="1461689064517" expanded="true" signature="1597:1636" placeholder="SELECT * FRO... holes" />
+            <marker date="1461689064517" expanded="true" signature="2302:2368" placeholder="SELECT cours... clubs" />
+            <marker date="1461689064517" expanded="true" signature="2302:2578" placeholder="SELECT cours... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/GetMembers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1460305561340" expanded="true" signature="447:687" placeholder="SELECT id, f... members" />
+            <marker date="1460305561340" expanded="true" signature="1374:1610" placeholder="SELECT club_... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Authentication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <marker date="1460141143357" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/MemberInformation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <marker date="1460058635496" expanded="true" signature="560:594" placeholder="SELECT * FRO... members" />
+            <marker date="1460058635496" expanded="true" signature="1105:1197" placeholder="SELECT club_... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/GetCourseList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <marker date="1461689064517" expanded="true" signature="517:559" placeholder="SELECT * FRO... clubs" />
+            <marker date="1461689064517" expanded="true" signature="908:947" placeholder="SELECT * FRO... courses" />
+            <marker date="1461689064517" expanded="true" signature="1597:1636" placeholder="SELECT * FRO... holes" />
+            <marker date="1461689064517" expanded="true" signature="2302:2368" placeholder="SELECT cours... clubs" />
+            <marker date="1461689064517" expanded="true" signature="2302:2578" placeholder="SELECT cours... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/GetMembers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1460305561340" expanded="true" signature="447:687" placeholder="SELECT id, f... members" />
+            <marker date="1460305561340" expanded="true" signature="1374:1610" placeholder="SELECT club_... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Authentication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <marker date="1460141143357" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/MemberInformation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <marker date="1460058635496" expanded="true" signature="560:594" placeholder="SELECT * FRO... members" />
+            <marker date="1460058635496" expanded="true" signature="1105:1197" placeholder="SELECT club_... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/GetCourseList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <marker date="1461689064517" expanded="true" signature="517:559" placeholder="SELECT * FRO... clubs" />
+            <marker date="1461689064517" expanded="true" signature="908:947" placeholder="SELECT * FRO... courses" />
+            <marker date="1461689064517" expanded="true" signature="1597:1636" placeholder="SELECT * FRO... holes" />
+            <marker date="1461689064517" expanded="true" signature="2302:2368" placeholder="SELECT cours... clubs" />
+            <marker date="1461689064517" expanded="true" signature="2302:2578" placeholder="SELECT cours... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/GetMembers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1460305561340" expanded="true" signature="447:687" placeholder="SELECT id, f... members" />
+            <marker date="1460305561340" expanded="true" signature="1374:1610" placeholder="SELECT club_... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Authentication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <marker date="1460141143357" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/MemberInformation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <marker date="1460058635496" expanded="true" signature="560:594" placeholder="SELECT * FRO... members" />
+            <marker date="1460058635496" expanded="true" signature="1105:1197" placeholder="SELECT club_... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/GetCourseList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461689064517" expanded="true" signature="517:559" placeholder="SELECT * FRO... clubs" />
+            <marker date="1461689064517" expanded="true" signature="908:947" placeholder="SELECT * FRO... courses" />
+            <marker date="1461689064517" expanded="true" signature="1597:1636" placeholder="SELECT * FRO... holes" />
+            <marker date="1461689064517" expanded="true" signature="2302:2368" placeholder="SELECT cours... clubs" />
+            <marker date="1461689064517" expanded="true" signature="2302:2578" placeholder="SELECT cours... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Authentication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <marker date="1460141143357" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/MemberInformation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1460058635496" expanded="true" signature="560:594" placeholder="SELECT * FRO... members" />
+            <marker date="1460058635496" expanded="true" signature="1105:1197" placeholder="SELECT club_... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Club.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/GetCourseList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461689064517" expanded="true" signature="517:559" placeholder="SELECT * FRO... clubs" />
+            <marker date="1461689064517" expanded="true" signature="908:947" placeholder="SELECT * FRO... courses" />
+            <marker date="1461689064517" expanded="true" signature="1597:1636" placeholder="SELECT * FRO... holes" />
+            <marker date="1461689064517" expanded="true" signature="2302:2368" placeholder="SELECT cours... clubs" />
+            <marker date="1461689064517" expanded="true" signature="2302:2578" placeholder="SELECT cours... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Authentication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+          <folding>
+            <marker date="1460141143357" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/MemberInformation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <folding>
+            <marker date="1460058635496" expanded="true" signature="560:594" placeholder="SELECT * FRO... members" />
+            <marker date="1460058635496" expanded="true" signature="1105:1197" placeholder="SELECT club_... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="151" column="42" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Authentication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1460141143357" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/MemberInformation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1460058635496" expanded="true" signature="560:594" placeholder="SELECT * FRO... members" />
+            <marker date="1460058635496" expanded="true" signature="1105:1197" placeholder="SELECT club_... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Model/Member.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -262,7 +590,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1460047060795" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
+            <marker date="1460141143357" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
           </folding>
         </state>
       </provider>
@@ -280,7 +608,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1460047060795" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
+            <marker date="1460141143357" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
           </folding>
         </state>
       </provider>
@@ -298,7 +626,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1460047060795" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
+            <marker date="1460141143357" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
           </folding>
         </state>
       </provider>
@@ -316,7 +644,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1460047060795" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
+            <marker date="1460141143357" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
           </folding>
         </state>
       </provider>
@@ -325,35 +653,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3480663">
           <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.1780486">
+          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/Authentication.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.692307">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding>
-            <marker date="1460047060795" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
+            <marker date="1460141143357" expanded="true" signature="560:594" placeholder="SELECT * FRO... players" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/Member.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.384615">
-          <caret line="151" column="42" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
+        <state vertical-scroll-proportion="-0.73348016">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/MemberInformation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3756906">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
           <folding>
             <marker date="1460058635496" expanded="true" signature="560:594" placeholder="SELECT * FRO... members" />
             <marker date="1460058635496" expanded="true" signature="1105:1197" placeholder="SELECT club_... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/GetMembers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-33.96154">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <marker date="1460305561340" expanded="true" signature="447:687" placeholder="SELECT id, f... members" />
+            <marker date="1460305561340" expanded="true" signature="1374:1610" placeholder="SELECT club_... clubs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Club.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-51.653847">
+          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="80" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Hole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-58.846153">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/GetCourseList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.018274112">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <marker date="1461689064517" expanded="true" signature="517:559" placeholder="SELECT * FRO... clubs" />
+            <marker date="1461689064517" expanded="true" signature="908:947" placeholder="SELECT * FRO... courses" />
+            <marker date="1461689064517" expanded="true" signature="1597:1636" placeholder="SELECT * FRO... holes" />
+            <marker date="1461689064517" expanded="true" signature="2302:2368" placeholder="SELECT cours... clubs" />
+            <marker date="1461689064517" expanded="true" signature="2302:2578" placeholder="SELECT cours... clubs" />
           </folding>
         </state>
       </provider>

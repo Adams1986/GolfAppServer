@@ -31,5 +31,7 @@
         }
     }
     //compare password from login attempt to password from mysql query
-    echo password_verify($currentPlayer->getPassword(), $password) ? 'Login successful' : 'Login failed';
+    echo password_verify($currentPlayer->getPassword(), $password)
+        ? '{"message": "Login successful"}'
+        : '{"message": "Login fejlede. Der er fejl i brugernavn eller adgangskode"}';
 

@@ -1,6 +1,6 @@
 <?php
 
-    class Member {
+    class Member implements \JsonSerializable{
 
         private $firstName;
         private $lastName;
@@ -21,7 +21,7 @@
             $this->marker = $marker;
         }*/
 
-        public function __construct($id, $password) {
+        public function __construct($id = null, $password = null) {
 
             $this->id = $id;
             $this->password = $password;
@@ -142,9 +142,9 @@
 
         public static function fromJson($json){
 
-            $player = json_decode($json);
+            $member = json_decode($json);
 
-            return new Member($player->id, $player->password);
+            return new Member($member->id, $member->password);
         }
 
         public function toJson(){
@@ -154,6 +154,18 @@
 
         public function __toString() {
             // TODO: Implement __toString() method.
-            return print_r($this, true);
+            return "";
+        }
+
+        /**
+         * Specify data which should be serialized to JSON
+         * @link http://php.net/manual/en/jsonserializable.jsonserialize.php
+         * @return mixed data which can be serialized by <b>json_encode</b>,
+         * which is a value of any type other than a resource.
+         * @since 5.4.0
+         */
+        function jsonSerialize() {
+
+            return get_object_vars($this);
         }
     }
